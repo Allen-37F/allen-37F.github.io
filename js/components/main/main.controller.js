@@ -16,6 +16,7 @@
     // simplest http script using jquery - ping a site using $http.get, then print the results, whatever that is. It could just as easily say "if (result) == dispense, then drop"
   //   $http.get('http://google.com')
   //     .then(result => console.log(result))
-  // }
+
+  }
 
 })();
