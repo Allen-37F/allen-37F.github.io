@@ -7,65 +7,21 @@
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127117624-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-127117624-1');
-    </script>
-
-<!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-P55K9QQ');</script>
-<!-- End Google Tag Manager -->
-
 <!-- Google Ad Init -->
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-    <script>
-      var googletag = googletag || {};
-        googletag.cmd = googletag.cmd || [];
-    </script>
-
-<!-- Google Ad Slot Definition : Allen 5Oct18 Test Banner -->
-    <script>
-      googletag.cmd.push(function() {
-        googletag.defineSlot('/3847125/Allen_5Oct18_Test_Banner', [[120, 600], [300, 100]], 'div-gpt-ad-1538776330338-0').addService(googletag.pubads());
-        googletag.pubads().enableSingleRequest();
-        googletag.enableServices();
-      });
-    </script>
-
-<!-- Google Ad Slot Definition : Allen Test Passport Digital Receipt -->
 
 
-    <script>
-      googletag.cmd.push(function() {
-        googletag.defineSlot('/3847125/Allen_Digital_Receipt_Test', [[120, 600], [300, 100]], 'div-gpt-ad-1539714653935-0').addService(googletag.pubads());
-        googletag.pubads().enableSingleRequest();
-        googletag.enableServices();
-      });
-    </script>
+<!-- Google Ad Slot Definition Script: Pure DFP -->
 
 
+<!-- Google Ad Slot Definition Script: Digital Receipt Via Google -->
 
-<!-- Google Ad Tag -->
 
-<!-- Rebel Tag -->
+<!-- Rebel Page Signature -->
     <rebelai dg="f462801f7e09ae49754db7be09ae4975edb7996c072b63c4f34fe8872b63c4f33fe8aa" />
+<!-- End of Rebel Page Signature -->
 
   </head>
   <body ng-cloak>
-
-<!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P55K9QQ"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
   <!-- Navbar: -->
   <nav class="navbar navbar-default">
@@ -106,7 +62,6 @@
 
   <img src="/images/Allen-Galv.jpg" width="100%" alt="">
 
-
     <!-- Angular greeting -->
     <div class="container">
       <div ng-controller="mainController as mainCtrl">
@@ -124,8 +79,6 @@
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/config.js"></script>
 
-    <!-- This script is for pubnub - be sure to use it on whatever page you want to control the Pi from: -->
-    <script src="http://cdn.pubnub.com/pubnub-3.7.1.min.js"></script>
 
     <!-- main component -->
     <script type="text/javascript" src="js/components/main/main.controller.js"></script>
@@ -133,32 +86,21 @@
 <!-- Passport Digital Receipt -->
     <div class="adBox col-md-4">
       The ad below is secured with a Rebel AI Digital Receipt:
-      <div>
-      <script type="text/javascript" src="https://secure.dev.rebel.ai/adb/secure-content-delivery?ag=8da7f62a75ee6cf49a4a66b5ee6cf49aca66e0c2fb8385c4554ee7bb8385c4550ee7fc"></script>
-      </div>
+
     </div>
     <!-- End Passport Digital Receipt -->
 
-    <!-- Google Ad Unit : /3847125/Allen_5Oct18_Test_Banner -->
+    <!-- Google Ad Unit :  -->
     <div class="adBox col-md-4">
       The ad below is served by Google:
-      <div id='div-gpt-ad-1538776330338-0'>
-        <script>
-        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1538776330338-0'); });
-        </script>
-      </div>
+
     </div>
     <!-- End Google Ad Unit -->
 
     <!-- Passport / Google -->
     <div class="adBox col-md-4">
       The ad below is a Passport ad, served by Google:
-      <!-- /3847125/Allen_Digital_Receipt_Test -->
-      <div id='div-gpt-ad-1539714653935-0'>
-      <script>
-      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1539714653935-0'); });
-      </script>
-      </div>
+
     </div>
     <!-- End Passport / Google -->
   </body>
