@@ -7,7 +7,9 @@
   angular
     .module('myApp', [
       'myApp.config',
-      'myApp.components.main'
+      'myApp.components.main',
+      'myApp.components.about'
+
     ]);
 
 })();
