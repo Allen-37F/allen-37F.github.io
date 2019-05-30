@@ -8,7 +8,7 @@
 
   aboutController.$inject = ['$scope', '$http'];
 
-  function aboutcontroller($scope) {
+  function aboutController($scope) {
     /*jshint validthis: true */
     this.greeting = 'this is going to be a VAST tag, hopefully, someday';
 
