@@ -7,30 +7,6 @@
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
-    <!-- Google Ad Init -->
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-    <script>
-      var googletag = googletag || {};
-      googletag.cmd = googletag.cmd || [];
-    </script>
-
-    <!-- Google Ad Slot Definition Script: Pure DFP -->
-    <script>
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/3847125/allen_17_oct', [400, 300], 'div-gpt-ad-1539815551363-0').addService(googletag.pubads());
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
-        });
-    </script>
-
-    <!-- Google Ad Slot Definition Script: Digital Receipt Via Google -->
-    <script>
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/3847125/Allen17OctSawdustDR', [400, 300], 'div-gpt-ad-1556658530716-0').addService(googletag.pubads());
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
-        });
-    </script>
 
     <!-- Rebel Page Signature -->
     <script src="https://cdn.rebel.ai/passport/js/1776.js" dg="f46280a03e055751db4da0be055751db2da0dfd540ad749f4643e180ad749f4603e1b4"></script>
@@ -42,11 +18,6 @@
     <link href="http://techniqal.com/vjs/videojs-vast-vpaid/bin/videojs.vast.vpaid.min.css" rel="stylesheet"/>
     <script src="http://techniqal.com/vjs/videojs-vast-vpaid/bin/videojs_5.vast.vpaid.min.js"></script>
     <!--End of VAST/VPAID stuff-->
-
-  <!-- Havas tag -->
-    <script src="https://tag.i1.epncloud.net/js/evt.js" trkGuid="test" evtGuid="5cf27ba5-9ea8-4014-99ea-ec775d2a8e7e"></script>
-  <!-- End of Rebel Page Signature -->
-
 
   </head>
   <body ng-cloak>
@@ -107,7 +78,6 @@
     </div>
   </div>
 
-
     <!-- scripts -->
     <script type="text/javascript" src="//code.jquery.com/jquery-2.2.4.min.js"></script>
     <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -118,87 +88,6 @@
     <!-- Main Angular component -->
     <script type="text/javascript" src="js/components/main/main.controller.js"></script>
     <script type="text/javascript" src="js/components/about/about.controller.js"></script>
-
-
-  <!-- Google Ad Unit :  -->
-  <div class="adBox col-md-4">
-    The ad below is served by Google:
-    <!-- /3847125/allen_17_oct -->
-    <div id='div-gpt-ad-1539815551363-0' style='height:300px; width:400px;'>
-      <script>
-          googletag.cmd.push(function() { googletag.display('div-gpt-ad-1539815551363-0'); });
-      </script>
-    </div>
-    <div>
-      Steps to display:
-      <ul>
-        <li>Upload a creative into Google Ad Manager</li>
-        <li>Set up Line Item(s)</li>
-        <li>Insert Google Ad Management script in HTML head</li>
-        <li>Create an Ad Unit on a page using Google's tags</li>
-        <li>Schedule an 'Order'</li>
-      </ul>
-    </div>
-  </div>
-  <!-- End Google Ad Unit -->
-
-<!-- Passport Digital Receipt -->
-    <div class="adBox col-md-4">
-      <div>
-      The ad below is secured with a Rebel AI Digital Receipt:
-        <div>
-          <script setTimeout(function(){
-                    type="text/javascript" src="https://secure.rebel.ai/adb/secure-content-delivery?ag=d8a7f6310e5243d8d7430d8e5243d8d7530d5fe2fce7a4d10a466cbce7a4d10ab66c3a&ap=${AUCTION_PRICE}"
-                  }, 5000); ></script>
-        </div>
-        Steps to display:
-        <ul>
-          <li>Copy the Google Tag scripts into a Digital Receipt</li>
-          <li>Register the Destination and set up the page signing element</li>
-          <li>Set up the CDN implementation (CloudFlare)</li>
-          <li>Schedule a Passport campaign</li>
-          <li>Schedule an 'Order'</li>
-        </ul>
-      </div>
-    </div>
-    <!-- End Passport Digital Receipt -->
-
-    <!-- Passport Digital Receipt served by Google -->
-    <!--<div class="adBox col-md-4">-->
-      <!--The ad below is a Passport ad, served by Google:-->
-      <!--&lt;!&ndash; /3847125/Allen17OctSawdustDR &ndash;&gt;-->
-      <!--<div id='div-gpt-ad-1556658530716-0' style='height:300px; width:400px;'>-->
-        <!--<script>-->
-            <!--googletag.cmd.push(function() { googletag.display('div-gpt-ad-1556658530716-0'); });-->
-        <!--</script>-->
-      <!--</div>-->
-      <!--<div>-->
-        <!--Steps to display:-->
-        <!--<ul>-->
-          <!--<li>Same as the Google Served Ad, except creative is 3rd party, HTML, or custom</li>-->
-          <!--<li>Copy the content of the Digital Receipt as the content of the Creative</li>-->
-          <!--<li>If the page is signed, the ad will display</li>-->
-        <!--</ul>-->
-      <!--</div>-->
-    <!--</div>-->
-    <!-- End Passport / Google -->
-
-  <!--VAST/VPAID ad tag-->
-  <script>
-      vastsetup2='{"plugins": {"vastClient": {"adTagUrl":"https://video-secure.rebel.ai/adb/secure-content-delivery?ag=8da7f6e5f6c1c66acf47ffb6c1c66acfe7ff927b6c2811e8d94720ac2811e8d9d72086&ap=${AUCTION_PRICE}" ,"adCancelTimeout": 10000,"preferredTech":"html5","adsEnabled": true}}}';
-  </script>
-  <video id="my-player2" class="video-js" poster="" preload="auto" controls="controls" width="640" height="480">
-    <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
-    <source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm">
-    <source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg">
-  </video>
-  <br>
-  <script>
-      myid2 = document.getElementById('my-player2');
-      myid2.setAttribute('data-setup',vastsetup2);
-  </script>
-  <!--End of VAST/VPAID ad tag-->
-
 
   </body>
 </html>
