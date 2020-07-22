@@ -10,7 +10,7 @@
 
   function aboutController($scope) {
     /*jshint validthis: true */
-    this.greeting = 'this is going to be a VAST tag, hopefully, someday';
+    this.greeting = 'This page is currently being used to test Compass, an ad delivery platform created by Rebel AI';
 
 
     // simplest http script using jquery - ping a site using $http.get, then print the results, whatever that is. It could just as easily say "if (result) == dispense, then drop"
